@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class ChatServer {
+public class ServerApp {
     private static final int PORT = 12345;
     private static Set<PrintWriter> clientWriters = new HashSet<>();
 

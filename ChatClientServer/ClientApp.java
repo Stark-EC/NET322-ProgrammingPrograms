@@ -2,8 +2,10 @@ import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
-public class ChatClient {
+public class ClientApp {
     public static void main(String[] args) {
+        int PORT = 12345;
+
         try {
             Socket clientSocket = new Socket("localhost", PORT); // Connect to server
             System.out.println("Connected to chat server.");
